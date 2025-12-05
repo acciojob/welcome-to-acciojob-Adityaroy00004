@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #2458ff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.card-section {
+    margin-top: 25px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+    background: #e9eeff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #d4dcff;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #234de6;
+}
